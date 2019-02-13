@@ -5414,6 +5414,11 @@ socket.io-parser@~3.3.0:
     debug "~3.1.0"
     isarray "2.0.1"
 
+soket.io@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/soket.io/-/soket.io-1.0.0.tgz#8824558f3c48d9463fa0bdc58dd90d2151d92b39"
+  integrity sha512-N4wRNVsb2UK0faPNk65VAp4M7FNISOYb797SOzi7ODhTekYcOkpMQk3tNoh82XAozSspMh6zBzaDFzLyW8X/iA==
+
 source-map-resolve@^0.5.0:
   version "0.5.2"
   resolved "https://registry.yarnpkg.com/source-map-resolve/-/source-map-resolve-0.5.2.tgz#72e2cc34095543e43b2c62b2c4c10d4a9054f259"
