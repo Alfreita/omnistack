@@ -4,11 +4,12 @@ import {
     createStackNavigator
 } from "react-navigation";
 
-import Login from './pages/login.js';
-import Timeline from './pages/timeLine.js';
-import New from './pages/New.js';
+import Login from './pages/login';
+import Timeline from './pages/timeLine';
+import New from './pages/New';
 
 const Routes = createAppContainer(
+    
     createSwitchNavigator({
         Login,
         App:createStackNavigator({

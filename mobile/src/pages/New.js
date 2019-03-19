@@ -32,7 +32,7 @@ export default class New extends Component {
     const content = this.state.newTweet;
     const author = await AsyncStorage.getItem("@OmniStack:username");
 
-    await Api.post("tweets",{author,content});
+    await Api.post('tweets',{author,content});
 
     this.goback();
   }

@@ -11,6 +11,7 @@ import {
 
 import Icon from 'react-native-vector-icons/FontAwesome';
 
+
 // import styles from './styles';
 
 export default class Login extends Component {
@@ -21,10 +22,11 @@ export default class Login extends Component {
 
   async componentDidMount(){
     const username = AsyncStorage.getItem("@OmniStack:username");
-
-    if(username){
+   
+    if(username) {
       this.props.navigation.navigate("App");
     }
+  
   }
   handleLogin= async()=>{
     const {username} = this.state;
